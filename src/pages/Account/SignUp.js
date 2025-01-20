@@ -116,7 +116,7 @@ const SignUp = () => {
                 zip
             ) {
                 setSuccessMsg(
-                    `Hello dear ${clientName}, Welcome you to OREBI Admin panel. We received your Sign up request. We are processing to validate your access. Till then stay connected and additional assistance will be sent to you by your mail at ${email}`
+                    `Hello dear ${clientName}, Welcome you to SnapShop Admin panel. We received your Sign up request. We are processing to validate your access. Till then stay connected and additional assistance will be sent to you by your mail at ${email}`
                 );
                 setClientName('');
                 setEmail('');
@@ -150,11 +150,13 @@ const SignUp = () => {
                         </span>
                         <p className='text-base text-gray-300'>
                             <span className='text-white font-semibold font-titleFont'>
-                                Get started fast with OREBI
+                                Get started fast with SnapShop
                             </span>
                             <br />
-                            Lorem ipsum, dolor sit amet consectetur adipisicing
-                            elit. Ab omnis nisi dolor recusandae consectetur!
+                            Explore a world of endless possibilities, from
+                            fashion to gadgets, and everything in between. Shop
+                            conveniently, save big, and enjoy fast delivery—all
+                            at your fingertips.
                         </p>
                     </div>
                     <div className='w-[300px] flex items-start gap-3'>
@@ -399,7 +401,7 @@ const SignUp = () => {
                                         type='checkbox'
                                     />
                                     <p className='text-sm text-primeColor'>
-                                        I agree to the OREBI{' '}
+                                        I agree to the SnapShop{' '}
                                         <span className='text-blue-500'>
                                             Terms of Service{' '}
                                         </span>
